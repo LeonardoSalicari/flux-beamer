@@ -1,5 +1,8 @@
 # Flux beamer
 
+> Credit to pvanberg for the original beamer theme, [link to its repo](https://github.com/pvanberg/flux-beamer). [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/).
+> I made some changes to adapt it to personal use.
+
 Flux is a modern style beamer presentation. It is based on simple design patterns and flat colors.
 
 Available as template on [Overleaf](https://www.overleaf.com/latex/templates/flux-beamer/vhzbnhyymddd#). 
