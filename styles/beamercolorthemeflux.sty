@@ -35,6 +35,7 @@
 \def\beamer@mytheme@styleblue{blue}%
 \def\beamer@mytheme@stylered{red}%
 \def\beamer@mytheme@stylegray{gray}%
+\def\beamer@mytheme@stylebd{bordeaux}%
 
 \ifx\beamer@mytheme@style\beamer@mytheme@stylegreen%
 	% Green
@@ -60,13 +61,19 @@
 		\definecolor{primary}{HTML}{424242}
 		\definecolor{secondary}{HTML}{518071}
 		\definecolor{tertiary}{HTML}{8b7687}
+	\else\ifx\beamer@mytheme@style\beamer@mytheme@stylebd%
+ 		% Bordeaux
+		\definecolor{primaryLight}{HTML}{AB0338}
+		\definecolor{primary}{HTML}{5F021F}
+		\definecolor{secondary}{HTML}{0B7E9E}
+		\definecolor{tertiary}{HTML}{7AA37B}
     \else% 
     	% Asphalt by default
       	\definecolor{primaryLight}{HTML}{34495e}
       	\definecolor{primary}{HTML}{2d3e50}
       	\definecolor{secondary}{HTML}{d15306}
       	\definecolor{tertiary}{HTML}{35837b}
-    \fi\fi\fi%
+    \fi\fi\fi\fi%
 \fi%
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
